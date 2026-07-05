@@ -10,7 +10,6 @@ const notes = [
   'Pharma research activity',
   'Cosmetic formulation work',
   'Small-scale cosmetic batches',
-  'White-label project support',
   'Sports cosmetic concepts in development',
   'B2B project discussions by appointment',
 ];

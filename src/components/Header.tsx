@@ -13,7 +13,6 @@ export default function Header() {
     { href: '/', label: 'Home' },
     { href: '/what-we-do', label: 'Capabilities' },
     { href: '/who-we-are', label: 'About' },
-    { href: '/work-with-us', label: 'White Label' },
     { href: '/write-to-us', label: 'Start a Project' },
   ];
 

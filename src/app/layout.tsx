@@ -9,14 +9,13 @@ export const metadata: Metadata = {
     template: '%s | WohlStand Pharma Private Limited',
   },
   description:
-    'WohlStand Pharma Private Limited is an R&D-led B2B partner for pharma research, cosmetic formulation, small-scale cosmetic manufacturing, and white-label cosmetic development.',
+    'WohlStand Pharma Private Limited is an R&D-led B2B partner for pharma research, cosmetic formulation, and small-scale cosmetic manufacturing.',
   keywords: [
     'WohlStand Pharma',
     'WPPL',
     'pharma research',
     'cosmetic formulation',
     'cosmetic manufacturing',
-    'white label cosmetics',
     'private label cosmetics',
     'sports cosmetics research',
     'B2B pharma',
@@ -28,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'WohlStand Pharma Private Limited',
     description:
-      'An R&D-led B2B partner for pharma research, cosmetic formulation, small-scale cosmetic manufacturing, and white-label development.',
+      'An R&D-led B2B partner for pharma research, cosmetic formulation, and small-scale cosmetic manufacturing.',
     url: 'https://wohlstandpharma.com',
     siteName: 'WohlStand Pharma Private Limited',
     images: [
@@ -60,7 +59,7 @@ export default function RootLayout({
     url: 'https://wohlstandpharma.com',
     logo: 'https://wohlstandpharma.com/wp-content/uploads/2024/06/wppl-final-logo-v12.svg',
     description:
-      'An R&D-led B2B company focused on pharma research, cosmetic formulation, small-scale cosmetic manufacturing, and white-label cosmetic development.',
+      'An R&D-led B2B company focused on pharma research, cosmetic formulation, and small-scale cosmetic manufacturing.',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Harohalli Industrial Area',

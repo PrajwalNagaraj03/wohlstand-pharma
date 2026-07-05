@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'About WPPL',
   description:
-    'About WohlStand Pharma Private Limited, a small B2B R&D-led company focused on pharma research, cosmetic formulation, and white-label cosmetic manufacturing.',
+    'About WohlStand Pharma Private Limited, a small B2B R&D-led company focused on pharma research, cosmetic formulation, and small-scale cosmetic manufacturing.',
 };
 
 const principles = [
@@ -56,8 +56,8 @@ export default function WhoWeAre() {
             </p>
             <p className="section-copy">
               This positioning is deliberately focused: pharma research on one
-              side, cosmetic R&D and manufacturing on the other, with white-label
-              development as the commercial bridge.
+              side, cosmetic R&D and manufacturing on the other, with manufacturing
+              support as the commercial bridge.
             </p>
           </div>
         </div>

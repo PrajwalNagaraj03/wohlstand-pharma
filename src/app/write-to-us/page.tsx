@@ -8,7 +8,7 @@ export default function WriteToUs() {
     email: '',
     company: '',
     phone: '',
-    projectType: 'cosmetic-white-label',
+    projectType: 'cosmetic-custom',
     batchStage: 'idea',
     message: '',
   });
@@ -41,8 +41,7 @@ export default function WriteToUs() {
           <h1 className="page-title">Tell WPPL what you want to develop.</h1>
           <p className="page-subtitle">
             Share your product category, stage, target market, and whether you
-            need pharma research, cosmetic R&D, small-batch manufacturing, or
-            white-label support.
+            need pharma research, cosmetic R&D, or small-batch manufacturing support.
           </p>
         </div>
       </section>
@@ -54,7 +53,7 @@ export default function WriteToUs() {
             <h2>What to include</h2>
             <ul className="partner-list compact">
               <li>Product category and intended use</li>
-              <li>Custom or white-label requirement</li>
+              <li>Custom manufacturing requirement</li>
               <li>Expected sample or batch quantity</li>
               <li>Target audience or selling channel</li>
               <li>Timeline and launch stage</li>
@@ -86,7 +85,7 @@ export default function WriteToUs() {
                     email: '',
                     company: '',
                     phone: '',
-                    projectType: 'cosmetic-white-label',
+                    projectType: 'cosmetic-custom',
                     batchStage: 'idea',
                     message: '',
                   });
@@ -125,7 +124,7 @@ export default function WriteToUs() {
                 <div className="form-group">
                   <label htmlFor="projectType">Project type</label>
                   <select id="projectType" name="projectType" className="form-control" value={formData.projectType} onChange={handleChange}>
-                    <option value="cosmetic-white-label">Cosmetic white-label</option>
+
                     <option value="cosmetic-custom">Custom cosmetic formulation</option>
                     <option value="cosmetic-manufacturing">Small-scale cosmetic manufacturing</option>
                     <option value="sports-cosmetics">Sports cosmetic concept</option>

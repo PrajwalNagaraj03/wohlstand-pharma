@@ -30,7 +30,7 @@ export default function WhitePapers() {
           </article>
           <article className="capability-card">
             <h3>Cosmetic capabilities</h3>
-            <p>A category sheet for cosmetic R&D, white-label, and small-batch support.</p>
+            <p>A category sheet for cosmetic R&D and small-batch support.</p>
           </article>
           <article className="capability-card">
             <h3>Confirmed documents</h3>

@@ -18,9 +18,9 @@ const focusAreas = [
       'Practical manufacturing support for cosmetic batches, sampling, pilot runs, and early B2B launch quantities.',
   },
   {
-    title: 'White-label cosmetics',
+    title: 'Manufacturing handover',
     description:
-      'Private-label and white-label cosmetic development for brands that need formulation, batch, and launch support.',
+      'Seamless transition from development to launch-ready batches for your brand.',
   },
 ];
 
@@ -30,7 +30,7 @@ const processSteps = [
   'Prototype batches',
   'Feedback refinement',
   'Small-batch production',
-  'White-label handover',
+  'Manufacturing handover',
 ];
 
 export default function Home() {
@@ -40,7 +40,7 @@ export default function Home() {
         <div className="container b2b-hero-grid">
           <div className="b2b-hero-copy">
             <p className="eyebrow">B2B research and formulation partner</p>
-            <h1>Pharma research and cosmetic white-label manufacturing.</h1>
+            <h1>Pharma research and cosmetic manufacturing.</h1>
             <p className="lead">
               WohlStand Pharma works with businesses on pharma research, cosmetic
               formulation, and small-scale cosmetic manufacturing. We are an
@@ -68,7 +68,7 @@ export default function Home() {
             <div className="capability-strip">
               <span>Pharma R&D</span>
               <span>Cosmetic R&D</span>
-              <span>White Label</span>
+              <span>Manufacturing</span>
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@ export default function Home() {
           <p className="section-copy">
             The company is positioned for businesses that need a formulation
             partner before they need a large factory. That means research,
-            prototype iteration, small cosmetic batches, and white-label support
+            prototype iteration, small cosmetic batches, and manufacturing support
             with clear communication around what is ready, what is custom, and
             what is still being developed.
           </p>
@@ -123,8 +123,7 @@ export default function Home() {
             <p className="section-copy">
               WPPL can support brands, distributors, clinics, salons, wellness
               operators, and sports businesses that want to explore a product
-              concept, validate a formula direction, or prepare a white-label
-              cosmetic line.
+               concept, validate a formula direction, or prepare a cosmetic line.
             </p>
             <Link href="/write-to-us" className="btn btn-secondary">
               Discuss Requirements

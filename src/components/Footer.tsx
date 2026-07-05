@@ -20,7 +20,7 @@ export default function Footer() {
             />
           </div>
           <p className="footer-desc">
-            A small R&D-led B2B partner for pharma research, cosmetic formulation, small-scale cosmetic manufacturing, and white-label product development.
+            A small R&D-led B2B partner for pharma research, cosmetic formulation, and small-scale cosmetic manufacturing.
           </p>
         </div>
 
@@ -30,7 +30,6 @@ export default function Footer() {
           <div className="footer-links">
             <Link href="/">Home</Link>
             <Link href="/what-we-do">Capabilities</Link>
-            <Link href="/work-with-us">White Label</Link>
             <Link href="/who-we-are">About WPPL</Link>
             <Link href="/write-to-us">Start a Project</Link>
           </div>
@@ -71,7 +70,7 @@ export default function Footer() {
             Copyrights &copy; 2023 - {currentYear}, All Rights Reserved by WohlStand Pharma Private Limited
           </p>
           <p>
-            B2B pharma research and cosmetic white-label support
+            B2B pharma research and cosmetic manufacturing support
           </p>
         </div>
       </div>
